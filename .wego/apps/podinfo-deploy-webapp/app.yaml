@@ -1,7 +1,0 @@
-apiVersion: wego.weave.works/v1alpha1
-kind: Application
-metadata:
-  name: podinfo-deploy-webapp
-spec:
-  path: deploy/webapp/
-  url: ssh://git@github.com/pzfreo/podinfo.git
